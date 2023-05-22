@@ -1,0 +1,196 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:  Tahoma, serif;
+
+
+}
+
+section
+ {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5em;
+ }
+ section *
+ {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+ }
+
+ .navbar
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2em 5em;
+    /**background-color: gold;**/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+ }
+
+ .logo
+  {
+    max-width: 6em;
+
+
+  }
+ .navigation 
+  {
+    display: flex;
+  }
+
+
+  .navigation li 
+  {
+    margin-right: 2em;
+
+  }
+
+
+  .content
+  { width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: green;*/
+    /*margin-top: 10em;*/
+  }
+
+  .textbox
+  {
+   /* background-color: palevioletred;*/
+    max-width: 40%;
+  }
+
+  .textbox h1
+   { 
+    font-size: 3em;
+
+
+   }
+   .textbox h1 span
+   { 
+    color: #006841;
+    font-size: 1.6em;
+
+
+   }
+   .textbox p
+   {
+    font-size: 1.2em;
+   }
+
+   .textbox a
+   {
+     display: inline-block;
+     background-color: #006841;
+     padding: 1em 3em;
+     margin-top: 2em;
+     color: #fff;
+    border-radius: 50px;
+
+   }
+  
+  .imgbox
+ {  
+    /*background-color: blue;*/
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ } 
+   
+  .imgbox img
+  {
+   /* background-color: blueviolet;*/
+    max-width: 50%;
+  }
+  .circle
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #006841;
+    clip-path: circle(75vh at 100% 100%);
+    z-index: -10;
+  }
+
+
+  .thumbs
+  {
+    position: absolute;
+    bottom: 3em;
+   /** background-color: orange;*/
+    width: 30%;
+ 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+  
+  .thumbs li 
+  {
+    width: 20%;
+  }
+
+  .thumbs li  img
+  {
+    width: 100%;
+  }
+  
+
+  .socials
+   {
+    
+    position: absolute;
+    max-width: 3em;
+    right: 0;
+    top: 50%;
+    /*background-color: red;*/
+    
+    transform: translateY(-50%);
+
+   }
+   .socials  li
+   { 
+    width: 100%;
+
+    
+
+   }
+   .socials li img
+   { 
+    width: 100%;
+    scale: .7;
+    filter: invert(1);
+   
+
+   }
+
+
+
+
+
+
+
+
+
+
